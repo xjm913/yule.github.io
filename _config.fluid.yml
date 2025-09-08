@@ -550,6 +550,11 @@ index:
     icon: "iconfont icon-top"
 
 
+  index_generator:
+    path: ''
+    per_page: 0  # 设置为 0 禁用文章列表展示
+    order_by: -date
+
 #---------------------------
 # 文章页
 # Post Page
@@ -562,11 +567,6 @@ post:
   # 文章在首页的默认封面图，当没有指定 index_img 时会使用该图片，若两者都为空则不显示任何图片
   # Path of the default post cover when `index_img` is not set. If both are empty, no image will be displayed
   default_index_img:
-  
-  index_generator:
-  path: ''
-  per_page: 0  # 设置为 0 禁用文章列表展示
-  order_by: -date
 
   # 文章标题下方的元信息
   # Meta information below title
