@@ -4,13 +4,13 @@
 
 # Site
 title: Yule
-subtitle: ''
-description: ''
+subtitle: ""
+description: ""
 keywords:
 author: John Doe
 # language: en
 # language: en
-timezone: ''
+timezone: ""
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -38,7 +38,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -48,19 +48,18 @@ syntax_highlighter: highlight.js
 highlight:
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 prismjs:
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: ""
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
-
 
 # Category & Tag
 default_category: uncategorized
@@ -78,7 +77,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: "mtime"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -94,9 +93,9 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: fluid  # 指定主题
+theme: fluid # 指定主题
 
-language: zh-CN  # 指定语言，会影响主题显示的语言，按需修改
+language: zh-CN # 指定语言，会影响主题显示的语言，按需修改
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -106,8 +105,8 @@ deploy:
   # example, https://github.com/hexojs/hexojs.github.io
   branch: gh-pages
 
-
 index_generator:
-  path: ''
-  per_page: 0
+  path: ""
+  per_page: 1
   order_by: -date
+  limit: 0
