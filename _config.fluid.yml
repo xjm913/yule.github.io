@@ -1081,9 +1081,9 @@ links:
 static_prefix:
   # 内部静态
   # Internal static
-  internal_js: /js
-  internal_css: /css
-  internal_img: /img
+  internal_js: /yule.github.io/js
+  internal_css: /yule.github.io/css
+  internal_img: /yule.github.io/img
 
   anchor: https://lib.baomitu.com/anchor-js/5.0.0/
 
