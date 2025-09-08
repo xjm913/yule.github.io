@@ -495,6 +495,10 @@ index:
   # Available: 0 - 1.0
   banner_mask_alpha: 0
 
+    # 新增：禁用首页文章列表容器
+  post_list:
+    enable: false  # 关闭文章列表容器，彻底隐藏相关 DOM 结构
+
   # 首页副标题的独立设置
   # Independent config of home page subtitle
   slogan:
