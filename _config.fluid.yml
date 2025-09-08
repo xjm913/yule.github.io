@@ -550,11 +550,6 @@ index:
     icon: "iconfont icon-top"
 
 
-  index_generator:
-    path: ''
-    per_page: 0  # 设置为 0 禁用文章列表展示
-    order_by: -date
-
 #---------------------------
 # 文章页
 # Post Page
