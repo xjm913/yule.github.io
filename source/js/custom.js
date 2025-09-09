@@ -1,7 +1,7 @@
 // 等待页面DOM完全加载
 document.addEventListener('DOMContentLoaded', function() {
   // 选择class为container的div元素
-  const containerDiv = document.querySelector('.container');
+  const containerDiv = document.querySelector('main .container');
   
   // 检查元素是否存在并隐藏
   if (containerDiv) {
